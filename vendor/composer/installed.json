@@ -1,0 +1,121 @@
+{
+    "packages": [
+        {
+            "name": "xqueue/addresscheck-api-client",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xqueue/addresscheck-php-api-client.git",
+                "reference": "01f1352e34d4362cf474dec495cbedcabd009425"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xqueue/addresscheck-php-api-client/zipball/01f1352e34d4362cf474dec495cbedcabd009425",
+                "reference": "01f1352e34d4362cf474dec495cbedcabd009425",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-libxml": "*",
+                "php": "^5.3.0 || ^7.0.0 || ^8.0.0"
+            },
+            "time": "2022-02-16T14:31:22+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "XQueue\\AddressCheck\\API\\": "src/XQueue/AddressCheck/API/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Lange",
+                    "email": "andreas.lange@xqueue.com",
+                    "homepage": "https://www.xqueue.com"
+                }
+            ],
+            "description": "API-Client to XQ:AddressCheck",
+            "homepage": "https://www.addresscheck.eu",
+            "keywords": [
+                "AddressCheck",
+                "XQueue"
+            ],
+            "support": {
+                "issues": "https://github.com/xqueue/addresscheck-php-api-client/issues",
+                "source": "https://github.com/xqueue/addresscheck-php-api-client/tree/1.0.1"
+            },
+            "install-path": "../xqueue/addresscheck-api-client"
+        },
+        {
+            "name": "xqueue/maileon-api-client",
+            "version": "v1.9.9",
+            "version_normalized": "1.9.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xqueue/maileon-php-api-client.git",
+                "reference": "56f7ba3af6c37e99f09b4fd104d26fa434c86167"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xqueue/maileon-php-api-client/zipball/56f7ba3af6c37e99f09b4fd104d26fa434c86167",
+                "reference": "56f7ba3af6c37e99f09b4fd104d26fa434c86167",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-libxml": "*",
+                "ext-mbstring": "*",
+                "php": "^7.0|^8.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.8",
+                "phpunit/phpunit": "^4"
+            },
+            "time": "2023-06-27T05:17:54+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "de\\xqueue\\maileon\\api\\client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "XQueue GmbH, Marcus Beckerle",
+                    "email": "marcus.beckerle@xqueue.com"
+                },
+                {
+                    "name": "XQueue GmbH, Andreas Lange",
+                    "email": "andreas.lange@xqueue.com"
+                },
+                {
+                    "name": "Wanadis Devs",
+                    "email": "dev@maileon.hu"
+                }
+            ],
+            "description": "API-Client to XQ:Maileon",
+            "homepage": "https://www.maileon.de",
+            "keywords": [
+                "XQueue",
+                "maileon"
+            ],
+            "support": {
+                "issues": "https://github.com/xqueue/maileon-php-api-client/issues",
+                "source": "https://github.com/xqueue/maileon-php-api-client/tree/v1.9.9"
+            },
+            "install-path": "../xqueue/maileon-api-client"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

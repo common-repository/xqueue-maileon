@@ -1,0 +1,19 @@
+<wpml-config>
+	<admin-texts>
+		<key name="success_message" />
+		<key name="error_no_email" />
+		<key name="error_invalid_syntax" />
+		<key name="error_invalid_domain" />
+		<key name="error_invalid_address" />
+		<key name="error_nonexistant_address" />
+		<key name="error_no_captcha" />
+		<key name="error_invalid_captcha" />
+		<key name="error_maileon" />
+		<key name="success_update_message" />
+		<key name="error_update_message" />
+		<key name="label_firstname" />
+		<key name="label_lastname" />
+		<key name="label_email" />
+		<key name="label_submit" />
+	</admin-texts>
+</wpml-config>

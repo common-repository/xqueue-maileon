@@ -1,0 +1,471 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Maileon Newsletter Subscription\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-13 12:42+0100\n"
+"PO-Revision-Date: 2023-09-13 12:43+0100\n"
+"Last-Translator: MB <xcr@gmx.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: maileon_plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: maileon_sidebar_widget.php:15
+msgid "XQ Maileon Newsletter Subscription"
+msgstr "XQ Maileon Newsletter-Anmeldung"
+
+#: maileon_sidebar_widget.php:16
+msgid "Register subscribers in your Maileon newsletter account."
+msgstr "Newsletter-Anmelder an den Maileon-Account übertragen."
+
+#: maileon_sidebar_widget.php:93
+msgid "New title"
+msgstr "Neuer Titel"
+
+#: maileon_sidebar_widget.php:94
+msgid "Subscribe now"
+msgstr "Jetzt abonnieren"
+
+#: class/xq_maileon.php:57
+#: class/xq_maileon.php:254
+#: class/xq_maileon_admin.php:127
+#: class/xq_maileon_profile_update.php:56
+msgid "You have succesfully subscribed to our newsletter, please check your inbox for the confirmation mail."
+msgstr "Sie haben sich erfolgreich zu unserem Newsletter angemeldet. In wenigen Minuten erhalten sie eine E-Mail mit einem Bestätigungslink."
+
+#: class/xq_maileon.php:283
+#: class/xq_maileon.php:307
+#: class/xq_maileon_admin.php:167
+#: class/xq_maileon_profile_update.php:322
+#: class/xq_maileon_profile_update.php:335
+msgid "An error occured with Maileon. Please try again later."
+msgstr "Es ist ein Fehler in der Verbindung zu Maileon aufgetreten. Bitte versuchen Sie es später erneut."
+
+#: class/xq_maileon_admin.php:52
+msgid "API settings"
+msgstr "API Einstellungen"
+
+#: class/xq_maileon_admin.php:57
+msgid "Print Debug Data"
+msgstr "Debug-Informationen ausgeben"
+
+#: class/xq_maileon_admin.php:60
+msgid "Maileon API key"
+msgstr "Maileon API-Schlüssel"
+
+#: class/xq_maileon_admin.php:66
+msgid "Link to data privacy description"
+msgstr "Link auf die Datenschutzerklärung"
+
+#: class/xq_maileon_admin.php:72
+msgid "Organization"
+msgstr "Unternehmen"
+
+#: class/xq_maileon_admin.php:77
+msgid "Templates"
+msgstr "Templates"
+
+#: class/xq_maileon_admin.php:85
+#: class/xq_maileon_admin.php:638
+msgid "Pages"
+msgstr "Seiten"
+
+#: class/xq_maileon_admin.php:90
+msgid "OK: Title of page to display if contact was subscribed successfully (if empty, only the message below will be shown instead of the page)"
+msgstr "OK: Titel der Seite, die angezeigt werden soll, wenn der Kontakt erfolgreich abonniert wurde (wenn leer, wird nur die folgende Nachricht anstelle der Seite angezeigt)"
+
+#: class/xq_maileon_admin.php:95
+msgid "ERROR: Title of page to display if contact was *NOT* subscribed successfully (if empty, only the message below will be shown instead of the page)"
+msgstr "FEHLER: Titel der Seite, die angezeigt werden soll, wenn der Kontakt *NICHT* erfolgreich abonniert wurde (wenn leer, wird nur die folgende Nachricht anstelle der Seite angezeigt)"
+
+#: class/xq_maileon_admin.php:101
+msgid "UPDATE_OK: Title of page to display if contact update was successful (if empty, only the message below will be shown instead of the page)"
+msgstr "Update OK: Titel der Seite, die angezeigt werden soll, wenn der Kontakt erfolgreich aktualisiert wurde (wenn leer, wird nur die konfigurierte Nachricht anstelle der Seite angezeigt)"
+
+#: class/xq_maileon_admin.php:106
+msgid "UPDATE_ERROR: Title of page to display if contact update *NOT* successful (if empty, only the message below will be shown instead of the page)"
+msgstr "Update-FEHLER: Titel der Seite, die angezeigt werden soll, wenn der Kontakt *NICHT* erfolgreich aktualisiert wurde (wenn leer, wird nur die konfigurierte Nachricht anstelle der Seite angezeigt)"
+
+#: class/xq_maileon_admin.php:119
+#: class/xq_maileon_admin.php:639
+msgid "Messages"
+msgstr "Nachrichten"
+
+#: class/xq_maileon_admin.php:125
+msgid "Text for Succesfull Subscription"
+msgstr "Text für eine Erfolgreiche Anmeldung"
+
+#: class/xq_maileon_admin.php:130
+msgid "Text for Empty Email"
+msgstr "Text für eine leere E-Mail-Adresse"
+
+#: class/xq_maileon_admin.php:132
+#: class/xq_utils.php:74
+msgid "The specified email address is empty or not valid!"
+msgstr "Die angegebene E-Mail ist leer oder nicht gültig!"
+
+#: class/xq_maileon_admin.php:135
+msgid "Text for Syntax Error"
+msgstr ""
+"Text für \n"
+"Syntaxfehler"
+
+#: class/xq_maileon_admin.php:137
+msgid "The specified email address contains errors:"
+msgstr "Die angegebene E-Mail-Adresse enthält Fehler:"
+
+#: class/xq_maileon_admin.php:140
+msgid "Text for Similar Domains"
+msgstr "Text für ähnliche Domains"
+
+#: class/xq_maileon_admin.php:142
+msgid "The specified domain does not exist. Similar domains:"
+msgstr "Die angegebene Domäne existiert nicht, ähnliche Domänen:"
+
+#: class/xq_maileon_admin.php:145
+msgid "Text for Invalid E-Mail-Address"
+msgstr "Text für ungültige Adresse"
+
+#: class/xq_maileon_admin.php:147
+msgid "The specified email address is invalid!"
+msgstr "Die E-Mail-Adresse ist ungültig!"
+
+#: class/xq_maileon_admin.php:150
+msgid "Text for Non-Existant Address"
+msgstr "Text für nichtexistierende E-Mail-Adresse"
+
+#: class/xq_maileon_admin.php:152
+msgid "The specified email address does not exist!"
+msgstr "Die angegebene E-Mail-Adresse existiert nicht!"
+
+#: class/xq_maileon_admin.php:155
+msgid "Text for Empty Captcha"
+msgstr "Text für leere Captcha-Lösung"
+
+#: class/xq_maileon_admin.php:157
+msgid "Please provide a solution for the given equation!"
+msgstr "Bitte geben Sie die Lösung für die Rechnung an!"
+
+#: class/xq_maileon_admin.php:160
+msgid "Text for Invalid Captcha"
+msgstr "Text für ungültige Captcha-Lösung"
+
+#: class/xq_maileon_admin.php:162
+msgid "Failed to validate captcha challenge."
+msgstr "Captcha-Challenge fehlgeschlagen."
+
+#: class/xq_maileon_admin.php:165
+msgid "Text for Maileon Error"
+msgstr "Text für Maileon-Fehler"
+
+#: class/xq_maileon_admin.php:172
+msgid "Labels"
+msgstr "Formularbeschriftungen"
+
+#: class/xq_maileon_admin.php:177
+msgid "Firstname Field"
+msgstr "Feldbezeichnung für Vorname"
+
+#: class/xq_maileon_admin.php:179
+msgid "First name"
+msgstr "Vorname"
+
+#: class/xq_maileon_admin.php:182
+msgid "Lastname Field"
+msgstr "Feldbezeichnung für Nachname"
+
+#: class/xq_maileon_admin.php:184
+msgid "Last name"
+msgstr "Nachname"
+
+#: class/xq_maileon_admin.php:187
+msgid "E-Mail Adress Field"
+msgstr "Feldbezeichnung für E-Mail-Adresse"
+
+#: class/xq_maileon_admin.php:189
+msgid "E-mail address"
+msgstr "E-Mail Adresse"
+
+#: class/xq_maileon_admin.php:192
+msgid "Subscribe Button"
+msgstr "Bezeichnung für Bestätigungsschaltfläche"
+
+#: class/xq_maileon_admin.php:194
+msgid "Subscribe"
+msgstr "Abonnieren"
+
+#: class/xq_maileon_admin.php:199
+msgid "Text for Succesfull Update"
+msgstr "Text für ein erfolgreiches Update"
+
+#: class/xq_maileon_admin.php:201
+msgid "You have succesfully updated your contact."
+msgstr "Sie haben Ihre Kontaktdaten erfolgreich aktualisiert."
+
+#: class/xq_maileon_admin.php:204
+msgid "Text for Unsuccesfull Update"
+msgstr "Text für eine nicht erfolgreiche Aktualisierung"
+
+#: class/xq_maileon_admin.php:206
+msgid "There was an error updating your contact."
+msgstr "Es sind Fehler während der Aktualisierung aufgetreten."
+
+#: class/xq_maileon_admin.php:218
+#: class/xq_maileon_admin.php:640
+msgid "Captcha"
+msgstr "Captcha"
+
+#: class/xq_maileon_admin.php:224
+msgid "Use (deprecated) Captcha Code"
+msgstr "Verwende (alten) Captcha Code"
+
+#: class/xq_maileon_admin.php:225
+msgid "Use Google reCaptcha"
+msgstr "Verwende Google reCaptcha"
+
+#: class/xq_maileon_admin.php:228
+msgid "Site Key"
+msgstr "Seitenschlüssel"
+
+#: class/xq_maileon_admin.php:234
+msgid "Secret Key"
+msgstr "Geheimer Schlüssel"
+
+#: class/xq_maileon_admin.php:249
+msgid "reCaptcha Sensitivity"
+msgstr "reCaptcha Sensitivität"
+
+#: class/xq_maileon_admin.php:262
+#: class/xq_maileon_admin.php:641
+msgid "ADC settings (optional)"
+msgstr "ADC Einstellungen (optional)"
+
+#: class/xq_maileon_admin.php:267
+msgid "Use ADC"
+msgstr "ADC verwenden"
+
+#: class/xq_maileon_admin.php:269
+msgid "ADC API User"
+msgstr "ADC API Benutzer"
+
+#: class/xq_maileon_admin.php:274
+msgid "ADC API Key"
+msgstr "ADC API Schlüssel"
+
+#: class/xq_maileon_admin.php:279
+msgid "ID of E-Mail Field"
+msgstr "ID des Feldes mit der E-Mail-Adresse"
+
+#: class/xq_maileon_admin.php:284
+msgid "ADC Input Check Delay (in seconds)"
+msgstr "ADC Eingabeverzögerung für Prüfung (in Sekunden)"
+
+#: class/xq_maileon_admin.php:286
+msgid "5"
+msgstr "5"
+
+#: class/xq_maileon_admin.php:288
+msgid "Allow ADC calls only from same server"
+msgstr "Erlaube nur vom gleichen Server Zugriffe auf den ADC-Dienst"
+
+#: class/xq_maileon_admin.php:630
+msgid "Maileon Settings"
+msgstr "Maileon-Einstellungen"
+
+#: class/xq_maileon_admin.php:636
+msgid "API Settings"
+msgstr "API Einstellungen"
+
+#: class/xq_maileon_admin.php:637
+msgid "Form Labels"
+msgstr "Formularbeschriftungen"
+
+#: class/xq_maileon_admin.php:652
+msgid "Copy your API key from Maileon -> Settings -> API-Keys."
+msgstr "Der API-Schlüssel kann unter Maileon -> Einstellungen -> API-Keys erstellt und abgefragt werden."
+
+#: class/xq_maileon_admin.php:658
+msgid "This section is used to set up labels for basic registration forms."
+msgstr "Diese Einstellung erlaubt es die Bezeichnungen von Feldern einfacher Registrierungsformulare zu definieren."
+
+#: class/xq_maileon_admin.php:664
+msgid "This section is used to forward contacts to predesigned wordpress pages. If a page is configured, it will be used over its potentially configured status message on the tab \"messages\"."
+msgstr "Diese Einstellungen sind dazu gedacht den Kontakt nach einer Aktion auf eine vorgefertigte Seite weiterzuleiten. Wenn eine Seite eingetragen wird, so überschreibt dies die entsprechende Nachricht."
+
+#: class/xq_maileon_admin.php:670
+msgid "This section is used to seit up messages for different occasions. The messages will be displayed to contacts e.g. when submitting a form (either it worked or not...).<br />This behavior is overwritten, if pages for forwarding are configured."
+msgstr "Diese Einstellungen beschreiben Nachrichten, welche angezeigt werden, sobald ein Ereignis eintritt.<br />Diese Einstellungen werden überschrieben, sobald eine Seite für das entsprechende Ereignis eingetragen wird."
+
+#: class/xq_maileon_admin.php:676
+msgid "This section sets up the captcha functionality. Earlier it was solved using some simple math captchas. Now, there is the possibility of using goole reCaptcha.<br />For using reCaptcha, register your domain with Google reCaptcha, generate a site and secret key and add them here. For information how to use reCaptcha, click <a href=\"https://www.google.com/recaptcha/admin/create#list\" target=\"_blank\">here</a>."
+msgstr "Diese Einstellungen definieren die Captcha-Funktionalität. Die alte Version mit der Mathe-Aufgabe wurde nun durch ein unsichtbares Google reCaptcha ersetzt. Um Google reCaptcha nutzen zu können muss die Domain bei reCaptcha registriert sein. Daraufhin zeigt Google den Seitenschlüssel und den geheimen Schlüssel an, welche hier eingetragen werden müssen. Für Informationen zur Einrichtung nutzen Sie bitte diesen Link: <a href=\"https://www.google.com/recaptcha/admin/create#list\" target=\"_blank\">reCaptcha</a>."
+
+#: class/xq_maileon_admin.php:682
+msgid "Note, if you decide to enable AddressCheck for your forms and do not fill ADC user and key, ADC will be automatically disabled. For more information about AddressCheck, please visit <a href=\"https://www.addresscheck.eu/\" target=\"_blank\">https://www.addresscheck.eu/</a>."
+msgstr "Die Prüfung mittels ADC wird automatisch in allen Maileon.Formularen aktiviert, wenn der ADC Benutzername und der ADC Schlüssel ausgefüllt wurden und ein E-Mail-Feld gefunden wird. ADC kann je Formular deaktiviert werden, indem das Attribut \"noadc=true\" dem Shorttag hinzugefügt wird. Wenn Sie mehr über AddressCheck erfahren wollen besuchen Sie bitte <a href=\"https://www.addresscheck.eu/\" target=\"_blank\">https://www.addresscheck.eu/</a>."
+
+#: class/xq_maileon_profile_update.php:236
+msgid "Not matching parameters."
+msgstr "Keine passenden Parameter gefunden."
+
+#: class/xq_maileon_profile_update.php:243
+msgid "Missing parameters."
+msgstr "Fehlende Parameter."
+
+#: class/xq_maileon_profile_update.php:251
+msgid "Cannot display update form."
+msgstr "Update-Formular kann nicht angezeigt werden."
+
+#: class/xq_maileon_profile_update.php:302
+msgid "You have succesfully updated your proile."
+msgstr "Sie haben sich Ihr Profil erfolgreich aktualisiert."
+
+#: class/xq_utils.php:79
+#: class/xq_utils.php:140
+msgid "You need to solve the equation!"
+msgstr "Bitte füllen Sie die Lösung für die Rechnung aus!"
+
+#: class/xq_utils.php:116
+msgid "Invalid reCaptcha validation!"
+msgstr "Captcha-Challenge nicht erfolgreich!"
+
+#: class/xq_utils.php:149
+msgid "Failed calculating captcha result!"
+msgstr "Fehler bei der Verifizierung des Captchas!"
+
+#: views/maileon-contact-form-adc-sample.php:28
+#: views/maileon-contact-form-custom-sample.php:7
+msgid "Salutation"
+msgstr "Anrede"
+
+#: views/maileon-contact-form-adc-sample.php:31
+#: views/maileon-contact-form-custom-sample.php:10
+msgid "Mister"
+msgstr "Herr"
+
+#: views/maileon-contact-form-adc-sample.php:32
+#: views/maileon-contact-form-custom-sample.php:11
+msgid "Madam"
+msgstr "Frau"
+
+#: views/maileon-contact-form-adc-sample.php:36
+#: views/maileon-contact-form-custom-sample.php:15
+msgid "firstname"
+msgstr "Vorname"
+
+#: views/maileon-contact-form-adc-sample.php:40
+#: views/maileon-contact-form-custom-sample.php:19
+msgid "lastname"
+msgstr "Nachname"
+
+#: views/maileon-contact-form-adc-sample.php:44
+#: views/maileon-contact-form-custom-sample.php:23
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: views/maileon-contact-form-adc-sample.php:46
+msgid "E-Mail is maybe invalid."
+msgstr "Die E-Mail is möglicherweise ungültig."
+
+#: views/maileon-contact-form-adc-sample.php:52
+#: views/maileon-contact-form-custom-sample.php:28
+#, php-format
+msgid "I have taken notice of the %s privacy declaration %s of %s."
+msgstr "Ich habe die %s Datenschutzhinweise %s der %s zur Kenntnis genommen."
+
+#: views/maileon-contact-form-adc-sample.php:53
+#: views/maileon-contact-form-custom-sample.php:29
+msgid " I agree with the newsletter tracking in order to optimize personal content."
+msgstr " Ich stimme dem Newsletter-Tracking zu, damit die Inhalte für mich optimiert werden können."
+
+#: views/maileon-contact-form-adc-sample.php:60
+#: views/maileon-contact-form-custom-sample.php:36
+#, php-format
+msgid "Please fill the form correctly: %s"
+msgstr "Bitte füllen Sie das Formular korrekt aus: %s"
+
+#: views/maileon-contact-form-adc-sample.php:64
+#: views/maileon-contact-form-custom-sample.php:40
+msgid "Submit"
+msgstr "Anmelden"
+
+#: views/maileon-contact-form-update-example.php:39
+#: views/maileon-contact-form-with-preferences.php:52
+msgid "Update"
+msgstr "Update"
+
+#: views/maileon-contact-form.php:131
+msgid "Firstname"
+msgstr "Vorname"
+
+#: views/maileon-contact-form.php:137
+msgid "Lirstname"
+msgstr "Nachname"
+
+#: views/maileon-contact-form.php:149
+#, php-format
+msgid "I have read and accept the %s privacy declaration %s"
+msgstr "Ich habe die %s Datenschutzerklärung %s gelesen und akzeptiere sie"
+
+#~ msgid " of "
+#~ msgstr " der "
+
+#~ msgid "Maileon Newsletter Subscription"
+#~ msgstr "Zum Maileon Newsletter anmelden"
+
+#~ msgid ""
+#~ "A simple plugin providing a shortcode for newsletter subscription and "
+#~ "profile update pages"
+#~ msgstr ""
+#~ "Ein einfaches Plugin mit Shortcodes für Newsletter-Anmeldungen und "
+#~ "Profiländerungen"
+
+#~ msgid "Marcus Beckerle <marcus.beckerle@xqueue.com>"
+#~ msgstr "Marcus Beckerle <marcus.beckerle@xqueue.com>"
+
+#~ msgid "Name of the organization to display"
+#~ msgstr ""
+#~ "Name des Unternehmens das in der Datenschutzerklärung angezeigt werden "
+#~ "soll."
+
+#~ msgid "Maileon BASE URI"
+#~ msgstr "Maileon Basis-URL"
+
+#~ msgid "Invalid solution for the equation!"
+#~ msgstr "Ungültige Lösung für die Rechnung!"
+
+#~ msgid "The provided solution for the given equation is incorrect."
+#~ msgstr "Die Lösung für die gegebene Rechnung ist falsch."
+
+#~ msgid "Information"
+#~ msgstr "Informationen"
+
+#~ msgid "You must specify a captcha!"
+#~ msgstr "Sie müssen eine Lösung für die Rechnung angeben."
+
+#~ msgid "label_acknowledge_privacy_agreement"
+#~ msgstr "Ich akzeptiere die %s Datenschutzerklärung %s der XQueue GmbH"
+
+#~ msgid "label_acknowledge_tracking"
+#~ msgstr ""
+#~ "Ich stimme dem Newsletter-Tracking zu, damit die Inhalte für mich "
+#~ "optimiert werden können."
+
+#~ msgid "error_unable_to_find_page_by_title"
+#~ msgstr ""
+#~ "Es ist leider nicht möglich die konfigurierte Seite mit dem Titel '%"
+#~ "s' (erfolgreiche Anmeldung) zu finden. Zeige Meldung an, bitte die "
+#~ "Konfiguration korrigieren."
+
+#~ msgid "error_fill_complete"
+#~ msgstr "Bitte füllen Sie das Formular korrekt aus: %s."

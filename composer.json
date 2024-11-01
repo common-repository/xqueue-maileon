@@ -1,0 +1,15 @@
+{
+	"name" : "xqueue/wordpress",
+	"description" : "Wordpress plugin for subscribing contacts with your Maileon account as newsletter recipients.",
+	"authors" : [{
+			"name" : "Marcus Beckerle",
+			"email" : "marcus.beckerle@xqueue.com"
+		}
+	],
+	"minimum-stability" : "dev",
+	"prefer-stable" : true,
+	"require" : {
+		"xqueue/maileon-api-client" : "^1.7.0",
+		"xqueue/addresscheck-api-client": "dev-master"
+	}
+}
